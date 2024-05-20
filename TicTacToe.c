@@ -64,7 +64,7 @@ Line* GetLines(Cell* cell, int* lineCount)
     }
     return cellLines;
 }
-//get all lines and then check if a lines contain all the marks of the currentplayer
+//get all lines and then check if a line contains all the marks of the currentplayer
 bool CheckWin(int currentPlayer, Cell cell)
 {
     int lineCount;
