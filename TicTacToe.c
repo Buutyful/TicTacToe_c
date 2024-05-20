@@ -152,6 +152,7 @@ int main()
             {
                 if (moveCount == 9)
                 {
+                    draw = true;
                     DisplayBoard();
                     printf("The game is a draw!\n");
                 }
